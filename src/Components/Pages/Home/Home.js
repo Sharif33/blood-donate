@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../Shared/Header/Header';
 import Banner1 from '../Banner/Banner1';
+import Donors from '../Donor/Donors';
 
 const Home = () => {
     return (
@@ -9,8 +10,7 @@ const Home = () => {
             <div style={{paddingTop:"60px"}}>
                 <Banner1/>
             </div>
-            
-            <h2>This is home</h2>
+            <Donors/>
         </div>
     );
 };

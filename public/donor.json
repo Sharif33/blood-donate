@@ -9,91 +9,99 @@
         "dob":"25/11/1998",
         "area":"Cumilla",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image":"https://i.ibb.co/1Z44xn2/user.png"
     },
     {
         "id": "D1002",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"A+",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
-        "area":"Cumilla",
+        "area":"Dhaka",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image": "https://i.ibb.co/9cjgJVr/buddies-avator.png"
     },
     {
         "id": "D1003",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"AB+",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
-        "area":"Cumilla",
+        "area":"Chattogram",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image":"https://i.ibb.co/1Z44xn2/user.png"
     },
     {
         "id": "D1004",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"O+",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
-        "area":"Cumilla",
+        "area":"Khulna",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image": "https://i.ibb.co/9cjgJVr/buddies-avator.png"
     },
     {
         "id": "D1005",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"B-",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
-        "area":"Cumilla",
+        "area":"Barishal",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image":"https://i.ibb.co/1Z44xn2/user.png"
     },
     {
         "id": "D1006",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"A-",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
-        "area":"Cumilla",
+        "area":"Jashore",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image": "https://i.ibb.co/9cjgJVr/buddies-avator.png"
     },
     {
         "id": "D1007",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"AB-",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
-        "area":"Cumilla",
+        "area":"Mymansingh",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image":"https://i.ibb.co/1Z44xn2/user.png"
     },
     {
         "id": "D1008",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"O-",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
         "area":"Cumilla",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image": "https://i.ibb.co/9cjgJVr/buddies-avator.png"
     },
     {
         "id": "D1009",
@@ -103,44 +111,49 @@
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
-        "area":"Cumilla",
+        "area":"Sylhet",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image":"https://i.ibb.co/1Z44xn2/user.png"
     },
     {
         "id": "D1010",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"AB+",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
-        "area":"Cumilla",
+        "area":"Dhaka",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image": "https://i.ibb.co/9cjgJVr/buddies-avator.png"
     },
     {
         "id": "D1011",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"AB-",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
-        "area":"Cumilla",
+        "area":"Chattogram",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image":"https://i.ibb.co/1Z44xn2/user.png"
     },
     {
         "id": "D1012",
         "name": "Sharif Rashed",
-        "bgrp":"B+",
+        "bgrp":"A+",
         "contact": "+880 12 34",
         "lastDonate": "20 dec 2021",
         "gender":"Male",
         "dob":"25/11/1998",
         "area":"Cumilla",
         "address":"Debidwar,Cumilla",
-        "status":"Ready to donate"
+        "status":"Ready to donate",
+        "image": "https://i.ibb.co/9cjgJVr/buddies-avator.png"
     }
 ]
+
