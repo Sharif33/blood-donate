@@ -50,6 +50,7 @@ const handleSearch = e =>{
                 {
                     categories.length === 0 ?
                     <div className="w-100 text-center">
+                        <p className='text-danger'>*Please search with blood group</p>
                         <CircularProgress />
                     </div>
                     :

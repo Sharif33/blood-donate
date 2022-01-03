@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../Hooks/useAuth/useAuth';
 
 import "./Header.css";
 
 const Header = () => {
-    // const { user, logOut } = useAuth();
+    const { user, logOut } = useAuth();
 
     return (
         <div>
@@ -17,33 +18,58 @@ const Header = () => {
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                              <ul className="navbar-nav ms-auto">
-                                        <li className="nav-item">
-                                            <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " aria-current="page" to="/home">Home</NavLink>
-                                        </li>
-                                        {/* <li className="nav-item">
-                                            <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " to="/mobiles">SHOP</NavLink>
-                                        </li> */}
-                                        <li className="nav-item">
-                                            <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " href="#contact" to="/contact">Contact Us</NavLink>
-                                        </li>
-                                        <li className="nav-item">
-                                            <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " to="/about">About Us</NavLink>
-                                        </li>
-                                        {/* <li className="nav-item">
-                                            <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " to="/dashboard">DASHBOARD</NavLink>
-                                        </li> */}
+                             {
+                                 user?.email ?  <ul className="navbar-nav ms-auto">
+                                 <li className="nav-item">
+                                     <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " aria-current="page" to="/home">Home</NavLink>
+                                 </li>
+                                 {/* <li className="nav-item">
+                                     <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " to="/mobiles">SHOP</NavLink>
+                                 </li> */}
+                                 <li className="nav-item">
+                                     <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " href="#contact" to="/contact">Contact Us</NavLink>
+                                 </li>
+                                 <li className="nav-item">
+                                     <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " to="/about">About Us</NavLink>
+                                 </li>
+                                 {/* <li className="nav-item">
+                                     <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " to="/dashboard">DASHBOARD</NavLink>
+                                 </li> */}
 
-                                        {/* <li className="nav-item">
-                                            <p onClick={logOut} className='nav-link active mx-1 text-danger'>LOGOUT</p>
-                                        </li> */}
+                                 <li className="nav-item">
+                                     <p onClick={logOut} className='nav-link active mx-1 text-danger'>Logout</p>
+                                 </li>
 
-                                    </ul>
+                             </ul> 
+                             :
+                             <ul className="navbar-nav ms-auto">
+                             <li className="nav-item">
+                                 <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " aria-current="page" to="/home">Home</NavLink>
+                             </li>
+                             {/* <li className="nav-item">
+                                 <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " to="/mobiles">SHOP</NavLink>
+                             </li> */}
+                             <li className="nav-item">
+                                 <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " href="#contact" to="/contact">Contact Us</NavLink>
+                             </li>
+                             <li className="nav-item">
+                                 <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " to="/about">About Us</NavLink>
+                             </li>
+                             {/* <li className="nav-item">
+                                 <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1  " to="/dashboard">DASHBOARD</NavLink>
+                             </li> */}
+
+                            <li className="nav-item">
+                               <NavLink style={({ isActive }) => ({ color: isActive ? 'orange' : '#764ABC' })} className="nav-link active mx-1" to="/login">Sign In<span> <i className="fas fa-user"></i></span> </NavLink>
+                            </li>
+
+                         </ul>
+                             }
                                 
-                                {/* <div className="text-center">
-                                    <img className="img-fluid w-25 rounded-circle px-1" src={user?.photoURL} alt="" />
+                                <div className="d-flex justify-content-center align-items-center">
                                     <p className="text-info">{user?.displayName}</p>
-                                </div> */}
+                                    <img style={{width:"20%"}} className="img-fluid rounded-circle px-1" src={user?.photoURL} alt="" />
+                                </div>
                             </div>
                         </div>
                     </nav>

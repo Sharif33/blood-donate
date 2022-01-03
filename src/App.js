@@ -6,6 +6,9 @@ import ContactUs from './Components/Pages/Home/ContactUs';
 import AboutUs from './Components/Pages/Home/AboutUs';
 import HeaderTop from './Components/Shared/Header/HeaderTop';
 import AuthProvider from './Components/Contexts/AuthProvider/AuthProvider';
+import BloodRequests from "./Components/Pages/BloodRequest/BloodRequests";
+import LogIn from "./Components/LogIn/LogIn/LogIn";
+import Register from "./Components/LogIn/Register/Register";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
           <Route path="home" element={<Home />} />
           <Route path="contact" element={<ContactUs />} />
           <Route path="about" element={<AboutUs />} />
+          <Route path="login" element={<LogIn />} />
+          <Route path="register" element={<Register />} />
+          <Route path="bloodRequest" element={<BloodRequests />} />
       </Routes>
       </AuthProvider>
      
